@@ -43,7 +43,6 @@
 git clone https://github.com/Eternal-Monke/PulseLAN.git
 cd pulselan
 python3 -m venv appenv
-pip install requirements.txt
 ./sendsoc
 ```
 
