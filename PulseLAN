@@ -109,7 +109,7 @@ if __name__ == "__main__":
             cmd = input("\033[1;34m-- Type the number of a peer to message, or enter 'list' or 'l' to see peers --\033[0m\n> ").strip().lower()
             if (cmd == "list") or (cmd == 'l'):
                 for number, value in all_peers.items():
-                    ip_, name_ = value.split('|')
+                    name_, ip_ = value.split('|')
                     print(f"\033[92;1m{number}\033[0m) {ip_} \033[1m@\033[0m {name_}")
             else:
                 try:
