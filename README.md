@@ -1,6 +1,6 @@
 # 🚦 PulseLAN
 
-**PulseLAN** is a lightweight, zero-config messaging and file-sharing tool for local networks. Think of it as Airdrop for the LAN — cross-platform, terminal-friendly, and open-source.
+**PulseLAN** is a lightweight, zero-config messaging and file-sharing tool for local networks.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat&logo=python)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
@@ -42,7 +42,6 @@
 ```bash
 git clone https://github.com/Eternal-Monke/PulseLAN.git
 cd pulselan
-python3 -m venv appenv
 ./sendsoc
 ```
 
