@@ -110,7 +110,7 @@ if __name__ == "__main__":
             if (cmd == "list") or (cmd == 'l'):
                 for number, value in all_peers.items():
                     name_, ip_ = value.split('|')
-                    print(f"\033[92;1m{number}\033[0m) {ip_} \033[1m@\033[0m {name_}")
+                    print(f"\033[92;1m{number}\033[0m) {name_} \033[1m@\033[0m {ip_}")
             else:
                 try:
                     if int(cmd) in all_peers:
